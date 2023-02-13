@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login_page</title>
+    <link rel="stylesheet" href="css/login_page.css" />
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+      <div class="logos">
+        <p>Green</p>
+      </div>
+      <div class="topMenu"></div>
+    </header>
+    <div class="contents">
+      <div class="loginSection">
+        <h2>로그인</h2>
+        <h3>로그인 하시고 다양한 서비스와 혜택을 누리세요.</h3>
+        <div class="container">
+          <input type="text" placeholder="ID" id="id" class="account" />
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            class="account"
+          />
+          <div class="loginElements">
+            <label
+              ><input type="checkbox" name="xxx" value="yyy" checked />아이디
+              저장</label
+            >
+            <a href="#">아이디 찾기</a>
+            <a href="#">| 비밀번호 찾기</a>
+          </div>
+
+          <button id="login" class="account">login</button>
+          <p id="alert" class="account"></p>
+        </div>
+      </div>
+    </div>
+    <script src="login_page.js"></script>
+    <footer></footer>
+  </body>
+</html>
